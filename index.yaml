@@ -1,0 +1,34 @@
+apiVersion: v1
+entries:
+  n8n:
+  -  apiVersion: v2
+    appVersion: 0.217.1
+    created: "2023-05-12T15:38:52.675452861+03:00"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.2.0
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: 6face50bc54f6495984d0799e5992f195385e12113c98c9a2c23e15580964d00
+    home: hhttps://github.com/get-zen-dev/n8n-helm-chart
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - n8n-0.10.0.tgz
+    version: 0.10.0
+generated: "2023-05-12T15:38:52.668407704+03:00"
