@@ -1,3 +1,8 @@
+This is the fork of [github.com/8gears/n8n-helm-chart](https://github.com/8gears/n8n-helm-chart).  
+Reason: to fix default behaviour if N8N_ENCRYPTION_KEY is missing.
+
+---
+
 # n8n Helm Chart for Kubernetes
 
 [n8n](https://github.com/n8n-io/n8n) is an extendable workflow automation tool.
